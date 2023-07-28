@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Phone Editer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="wrap__form">
+      <div class="form_ui">
+        <form class="form__main">
+          <div class="form__body">
+            <div class="wellcome__line">
+              <h2>PHOTO EDITOR</h2>
+            </div>
+            <div class="link__img">
+              <input
+                class="search__box"
+                type="text"
+                placeholder="Enter Image URL"
+              />
+            </div>
+            <div class="button">
+              <button class="btn btn__submit">Submit</button>
+              <p class="note">Ex: https://source.unsplash.com/400x500?pizza</p>
+            </div>
+            <div class="control__menu">
+              <div class="box box-1">
+                <label>brightness</label>
+                <input type="range" id="brightness__slider" />
+              </div>
+              <div class="box box-2">
+                <label>contrast</label>
+                <input type="range" id="contrast__slider" />
+              </div>
+              <div class="box box-3">
+                <label>hue</label>
+                <input type="range" id="hue__slider" />
+              </div>
+              <div class="box box-4">
+                <label>blur</label>
+                <input type="range" id="blur__slider" />
+              </div>
+              <div class="box box-5">
+                <label>saturation</label>
+                <input type="range" id="saturation__slider" />
+              </div>
+              <div class="box box-4">
+                <label>sepia</label>
+                <input type="range" id="sepia__slider" />
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="box__img">
+          <img src="https://source.unsplash.com/400x500" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
